@@ -22,7 +22,7 @@ export default function CounterApp({ value }) {
     <h2>{ counter }</h2>
     <button onClick={ handleAdd }> +1 </button>
     <button onClick={ handlead }> -1 </button>
-    <button onClick={ handle }> reset </button>
+    <button aria-label="btn-reset" onClick={ handle }> reset </button>
     </>
   )
 }

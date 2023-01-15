@@ -2,9 +2,14 @@
 
 exports[`Pruebas en <FirstApp /> debe de hacer mach con el snapshot 1`] = `
 <div>
-  <h1>
-    Hola soy Vgeta
+  <h1
+    data-testid="test-title"
+  >
+    Hola soy Vegeta
   </h1>
+  <p>
+    No hay sudtitulo
+  </p>
   <p>
     No hay sudtitulo
   </p>
